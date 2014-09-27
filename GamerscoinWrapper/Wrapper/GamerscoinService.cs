@@ -9,17 +9,17 @@ namespace GamerscoinWrapper.Wrapper
     /// </summary>
     public sealed class GamerscoinService : IGamerscoinService
     {
-        private readonly IBaseBtcConnector _baseBtcConnector;
+        private readonly IBaseGamerscoinConnector _baseGamerscoinConnector;
 
         public GamerscoinService(bool isPrimary)
         {
-            _baseBtcConnector = new BaseBtcConnector(isPrimary);    
+            _baseGamerscoinConnector = new BaseGamerscoinConnector(isPrimary);    
         }
 
         public Transaction GetTransaction(String txId)
         {
-            String rawTransaction = _baseBtcConnector.GetRawTransaction(txId);
-            return _baseBtcConnector.DecodeRawTransaction(rawTransaction);
+            String rawTransaction = _baseGamerscoinConnector.GetRawTransaction(txId);
+            return _baseGamerscoinConnector.DecodeRawTransaction(rawTransaction);
         }
     }
 }

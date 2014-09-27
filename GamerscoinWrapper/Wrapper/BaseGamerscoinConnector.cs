@@ -10,14 +10,14 @@ namespace GamerscoinWrapper.Wrapper
     /// This connector implements all the original methods in the Gamerscoin-qt API
     /// See more here: https://en.Gamerscoin.it/wiki/Original_Gamerscoin_client/API_Calls_list
     /// </summary>
-    public sealed class BaseBtcConnector : IBaseBtcConnector
+    public sealed class BaseGamerscoinConnector : IBaseGamerscoinConnector
     {
         private readonly IBaseConnector _baseConnector;
 
         /// <summary>
         /// Starts connecting to the Gamerscoin-qt server
         /// </summary>
-        public BaseBtcConnector(bool isPrimary)
+        public BaseGamerscoinConnector(bool isPrimary)
         {
             if (isPrimary)
             {

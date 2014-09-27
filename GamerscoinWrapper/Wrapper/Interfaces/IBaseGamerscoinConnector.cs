@@ -4,7 +4,7 @@ using GamerscoinWrapper.Data;
 
 namespace GamerscoinWrapper.Wrapper.Interfaces
 {
-    public interface IBaseBtcConnector
+    public interface IBaseGamerscoinConnector
     {
         Decimal GetBalance(String account);
         Block GetBlock(String hash);
