@@ -120,7 +120,7 @@ namespace ConsoleClient
             else
                 if (bobBalance <= 0)
                 {
-                    Console.WriteLine("Bob Bob before you can send Gamerscoin you need to get some ......");
+                    Console.WriteLine("Bob Bob before you can move Gamerscoin you need to get some ......");
                     Console.WriteLine("Bob your deposit address is :");
                     Console.WriteLine(userBob);
                     Console.WriteLine("------------------------------------------------");
