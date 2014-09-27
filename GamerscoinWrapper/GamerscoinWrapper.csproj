@@ -53,10 +53,10 @@
     <Compile Include="Data\Transaction.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Wrapper\Primary.cs" />
-    <Compile Include="Wrapper\BaseBtcConnector.cs" />
+    <Compile Include="Wrapper\BaseGamerscoinConnector.cs" />
     <Compile Include="Wrapper\GamerscoinService.cs" />
     <Compile Include="Wrapper\Secondary.cs" />
-    <Compile Include="Wrapper\Interfaces\IBaseBtcConnector.cs" />
+    <Compile Include="Wrapper\Interfaces\IBaseGamerscoinConnector.cs" />
     <Compile Include="Wrapper\Interfaces\IBaseConnector.cs" />
     <Compile Include="Wrapper\Interfaces\IGamerscoinService.cs" />
   </ItemGroup>
