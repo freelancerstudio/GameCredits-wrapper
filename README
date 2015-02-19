@@ -1,7 +1,7 @@
-This is a Beta Gamerscoin qt wrapper for .NET. It is written in C#.
+This is a Beta GameCredits qt wrapper for .NET. It is written in C#.
 
-It is made by lars holdgaard containing all methods in the Gamerscoin-qt API (few exceptions such as multi-signature addresses).
+It is made by lars holdgaard containing all methods in the GameCredits-qt API (few exceptions such as multi-signature addresses).
 
-Besides the C# wrapper which can be used in any kind of project, there is a MVC 4 project using the Gamerscoin wrapper. Here the methods are called using jQuery (AJAX), to show how to get information from the running Gamerscoin server to the client.
+Besides the C# wrapper which can be used in any kind of project, there is a MVC 4 project using the GameCredits wrapper. Here the methods are called using jQuery (AJAX), to show how to get information from the running Gamerscoin server to the client.
 
 Tutorial can be found at http://www.larsholdgaard.com/Bitcoin
